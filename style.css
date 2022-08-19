@@ -21,13 +21,14 @@ html {
 
 #captain-archive {
     margin-top: 25px !important;
+    margin-bottom: 25px !important;
 }
 
 
 
 .heading {
     color: black;
-    text-align: center
+    text-align: center;
 }
 
 .description {
@@ -44,4 +45,21 @@ html {
 .sub_captain {
     text-align: center;
     margin-top: 250px;
+}
+
+#awards{
+    margin-top: 25px !important;
+}
+.space{
+    height: 200px;
+}
+@media (max-width:768px) {
+    .space{
+        height: 10px;
+    }
+}
+
+#along_the_years{
+    text-align: center;
+    margin: 25px;
 }
